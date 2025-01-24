@@ -1,0 +1,10 @@
+2025-01-23 22:31:29.916 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-23 22:31:29.923 | INFO     | __main__:main:103 - START producer.
+2025-01-23 22:31:29.923 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-23 22:31:34.034 | ERROR    | utils.utils_producer:check_zookeeper_service_is_ready:82 - Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-23 22:31:34.036 | ERROR    | utils.utils_producer:verify_services:114 - Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
+2025-01-23 22:46:25.864 | INFO     | utils.utils_logger:<module>:38 - Logging to file: logs\project_log.log
+2025-01-23 22:46:25.868 | INFO     | __main__:main:103 - START producer.
+2025-01-23 22:46:25.869 | INFO     | utils.utils_producer:get_zookeeper_address:57 - Zookeeper address: localhost:2181
+2025-01-23 22:46:29.975 | ERROR    | utils.utils_producer:check_zookeeper_service_is_ready:82 - Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-01-23 22:46:29.977 | ERROR    | utils.utils_producer:verify_services:114 - Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
