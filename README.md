@@ -1,4 +1,4 @@
-# buzzline-02-case
+# buzzline-02-tesfa
 
 Streaming data is often too big for any one machine. 
 A streaming platform helps organize our pipelines.
@@ -34,7 +34,7 @@ For detailed instructions, see:
 
 Copy/fork this project into your GitHub account
 and create your own version of this project to run and experiment with. 
-Name it `buzzline-02-yourname` where yourname is something unique to you.
+Name it `buzzline-02-tesfa` where yourname is something unique to you.
 Follow the instructions in [FORK-THIS-REPO.md](https://github.com/denisecase/buzzline-01-case/blob/main/docs/FORK-THIS-REPO.md)).
     
 
@@ -45,7 +45,7 @@ Follow the instructions in [MANAGE-VENV.md](https://github.com/denisecase/buzzli
 2. Activate .venv
 3. Install the required dependencies using requirements.txt.
 
-## Task 4. Start a Kafka Producer
+## Task 4. Start a Kafka Producer for weather data
 
 Producers generate streaming data for our topics.
 
@@ -55,13 +55,13 @@ Use the commands below to activate .venv, and start the producer.
 Windows:
 ```shell
 .venv\Scripts\activate
-py -m producers.kafka_producer_case
+py -m producers.kafka_producer_tesfa
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m producers.kafka_producer_case
+python3 -m producers.kafka_producer_tesfa
 ```
 
 ## Task 5. Start a Kafka Consumer
@@ -74,13 +74,13 @@ Use the commands below to activate .venv, and start the consumer.
 Windows:
 ```shell
 .venv\Scripts\activate
-py -m consumers.kafka_consumer_case
+py -m consumers.kafka_consumer_tesfa
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m consumers.kafka_consumer_case
+python3 -m consumers.kafka_consumer_tesfa
 ```
 
 ## Later Work Sessions
