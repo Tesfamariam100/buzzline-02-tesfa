@@ -13,6 +13,7 @@ import os
 import sys
 import time
 import random
+import json  # Import the json library
 
 # Import external packages
 from dotenv import load_dotenv
