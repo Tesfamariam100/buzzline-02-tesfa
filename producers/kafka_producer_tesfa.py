@@ -143,4 +143,8 @@ def main():
     topic = get_kafka_topic()
     interval_secs = get_message_interval()
 
-    # Create the
+    # Create the Kafka producer
+producer = create_kafka_producer()
+if not producer:
+    logger.error("Failed to create Kafka producer. Exiting...")
+    sys.exit(3)
