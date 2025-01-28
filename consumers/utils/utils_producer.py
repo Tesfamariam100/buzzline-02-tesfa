@@ -14,9 +14,7 @@ import sys
 import socket
 import time
 
-
 # Import external packages
-# from . import producer 
 from dotenv import load_dotenv
 from kafka import KafkaProducer, KafkaConsumer, errors
 from kafka.admin import (
@@ -27,7 +25,9 @@ from kafka.admin import (
 )
 
 # Import functions from local modules
-from producers.utils.logger import logger
+from utils.utils_logger import logger
+from utils.utils_producer import producer
+
 #####################################
 # Load Environment Variables
 #####################################
